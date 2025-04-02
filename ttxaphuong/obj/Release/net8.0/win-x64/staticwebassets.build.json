@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "KgmkMoYcdRxriTajFxExk8ZSUUIPkgGfTn2NoIuviGM=",
+  "Source": "ttxaphuong",
+  "BasePath": "_content/ttxaphuong",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ttxaphuong\\wwwroot",
+      "Source": "ttxaphuong",
+      "ContentRoot": "D:\\0.ThucTap\\TTDT_XaPhuong_Demo\\demo\\ttxaphuong\\ttxaphuong\\wwwroot\\",
+      "BasePath": "_content/ttxaphuong",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
