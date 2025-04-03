@@ -117,3 +117,8 @@ D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\obj\Release\net8.0\re
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\obj\Release\net8.0\ttxaphuong.pdb
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\obj\Release\net8.0\ttxaphuong.genruntimeconfig.cache
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\obj\Release\net8.0\ref\ttxaphuong.dll
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Release\net8.0\publish\web.config
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Release\net8.0\publish\appsettings.Development.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Release\net8.0\publish\appsettings.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Release\net8.0\publish\ttxaphuong.deps.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Release\net8.0\publish\ttxaphuong.runtimeconfig.json

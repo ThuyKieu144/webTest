@@ -1,6 +1,11 @@
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\ttxaphuong.exe
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\publish\web.config
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\appsettings.Development.json
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\appsettings.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\publish\appsettings.Development.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\publish\appsettings.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\publish\ttxaphuong.deps.json
+D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\publish\ttxaphuong.runtimeconfig.json
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\ttxaphuong.dll
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\ttxaphuong.runtimeconfig.json
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\out\ttxaphuong.pdb
