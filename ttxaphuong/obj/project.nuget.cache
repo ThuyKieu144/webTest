@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MweO4BboSEiIx7fIRybAxQyriXd50aEHPND6jNvuEyKi9ukh8NOKxv/LUMEBZ6lYM7xuGxpoyy+3lnnluTAAag==",
+  "dgSpecHash": "kuXDD3BS/jgyWpXp2sfuY6f8b0zf7tRNEW96AB1kwU4bNIKoeCDQ21pDDk4yFTPXHLrLyCoao11GWNg1C96DGw==",
   "success": true,
   "projectFilePath": "D:\\0.ThucTap\\TTDT_XaPhuong_Demo\\demo\\ttxaphuong\\ttxaphuong\\ttxaphuong.csproj",
   "expectedPackageFiles": [
@@ -41,6 +41,7 @@
     "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
     "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.0\\microsoft.identitymodel.tokens.8.0.0.nupkg.sha512",
     "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\mysqlconnector\\2.3.5\\mysqlconnector.2.3.5.nupkg.sha512",
     "C:\\Users\\Tuan Giang Computer\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\8.0.2\\pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
