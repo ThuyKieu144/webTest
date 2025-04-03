@@ -83,7 +83,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp",
         policy =>
         {
-            policy.WithOrigins("https://localhost:4200") // Địa chỉ của ứng dụng 
+            //policy.WithOrigins("https://localhost:4200") // Địa chỉ của ứng dụng 
+            policy.WithOrigins("https://congtt123.id.vn") // Địa chỉ của ứng dụng 
                   .AllowAnyHeader()
                   .AllowAnyMethod();
                   //.AllowCredentials(); // ✅ Cho phép gửi Authorization header

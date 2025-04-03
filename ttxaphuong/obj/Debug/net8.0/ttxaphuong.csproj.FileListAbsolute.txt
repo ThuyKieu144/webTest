@@ -121,13 +121,8 @@ D:\ThucTapThongTinDienTuXaPhuong\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\o
 D:\ThucTapThongTinDienTuXaPhuong\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\obj\Debug\net8.0\ref\ttxaphuong.dll
 D:\ThucTapThongTinDienTuXaPhuong\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\ThucTapThongTinDienTuXaPhuong\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\ttxaphuong.staticwebassets.runtime.json
-D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\publish\web.config
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\appsettings.Development.json
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\appsettings.json
-D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\publish\appsettings.Development.json
-D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\publish\appsettings.json
-D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\publish\ttxaphuong.deps.json
-D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\publish\ttxaphuong.runtimeconfig.json
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\ttxaphuong.staticwebassets.runtime.json
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\ttxaphuong.exe
 D:\0.ThucTap\TTDT_XaPhuong_Demo\demo\ttxaphuong\ttxaphuong\bin\Debug\net8.0\ttxaphuong.deps.json
