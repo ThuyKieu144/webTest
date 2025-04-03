@@ -3,5 +3,5 @@ builder = "dockerfile"
 dockerfilePath = "./ttxaphuong/Dockerfile"
 
 [deploy]
-startCommand = "dotnet", "ttxaphuong.dll"
+startCommand = "dotnet ttxaphuong.dll"
 restartPolicyType ="always"
