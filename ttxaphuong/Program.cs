@@ -115,12 +115,8 @@ if (!Directory.Exists(pdfPath))
     Directory.CreateDirectory(pdfPath);
 }
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseStaticFiles(new StaticFileOptions
 {
