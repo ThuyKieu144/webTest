@@ -3,5 +3,5 @@ builder = "dockerfile"
 dockerfilePath = "./webApp/Dockerfile"
 
 [deploy]
-startCommand = "dotnet webApp.dll"
+startCommand = "dotnet ttxaphuong.dll"
 restartPolicyType ="always"
