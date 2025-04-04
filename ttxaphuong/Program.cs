@@ -91,6 +91,14 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ConfigureHttpsDefaults(opts => {
+        // Tắt HTTPS bắt buộc nếu không có chứng chỉ
+        opts.ServerCertificate = null;
+    });
+});
+
 var app = builder.Build();
 
 // 🛠 Tạo thư mục nếu chưa có
