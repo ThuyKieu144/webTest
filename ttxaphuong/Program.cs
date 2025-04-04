@@ -83,8 +83,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAngularApp",
         policy =>
         {
-            //policy.WithOrigins("https://localhost:4200") // Địa chỉ của ứng dụng 
-            policy.WithOrigins("https://congtt123.id.vn") // Địa chỉ của ứng dụng 
+            policy.WithOrigins("https://localhost:4200") // Địa chỉ của ứng dụng 
+           // policy.WithOrigins("https://congtt123.id.vn") // Địa chỉ của ứng dụng 
                   .AllowAnyHeader()
                   .AllowAnyMethod();
                   //.AllowCredentials(); // ✅ Cho phép gửi Authorization header
@@ -93,12 +93,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseSwagger();
-//    app.UseSwaggerUI();
-//}
 // 🛠 Tạo thư mục nếu chưa có
 var uploadsPath = Path.Combine(builder.Environment.ContentRootPath, "Uploads");
 var pdfPath = Path.Combine(builder.Environment.ContentRootPath, "Pdf");
@@ -113,8 +107,12 @@ if (!Directory.Exists(pdfPath))
     Directory.CreateDirectory(pdfPath);
 }
 
-app.UseSwagger();
-app.UseSwaggerUI();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 
 app.UseStaticFiles(new StaticFileOptions
 {
