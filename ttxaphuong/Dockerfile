@@ -13,4 +13,4 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build-env /app/publish .
 EXPOSE 8085
-ENTRYPOINT ["dotnet", "webApp.dll"]
+ENTRYPOINT ["dotnet", "ttxaphuong.dll"]
