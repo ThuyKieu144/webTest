@@ -132,7 +132,7 @@ app.UseCors("AllowAngularApp");
 
 app.UseMiddleware<ExceptionMiddleware>();
 
-app.UseHttpsRedirection();
+// app.UseHttpsRedirection();
 
 app.UseCors(policy => policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
