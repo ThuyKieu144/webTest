@@ -118,6 +118,8 @@ if (!Directory.Exists(pdfPath))
 app.UseSwagger();
 app.UseSwaggerUI();
 
+app.Urls.Add("http://*:8080");
+
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(uploadsPath),
