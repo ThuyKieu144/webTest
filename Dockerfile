@@ -1,7 +1,7 @@
 # STAGE 1: Build
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
-EXPOSE 8080  # 👈 Railway sẽ map cổng này
+EXPOSE 8080  
 
 # Copy toàn bộ nội dung vào container
 COPY . ./
