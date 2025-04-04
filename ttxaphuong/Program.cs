@@ -138,7 +138,7 @@ app.UseCors("AllowAngularApp");
 
 app.UseMiddleware<ExceptionMiddleware>();
 
-if (!app.Environment.IsDevelopment()) // Chỉ kích hoạt HTTPS trong môi trường sản xuất
+if (app.Environment.IsDevelopment())
 {
     app.UseHttpsRedirection();
 }
