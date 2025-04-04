@@ -99,22 +99,34 @@ var app = builder.Build();
 //    app.UseSwagger();
 //    app.UseSwaggerUI();
 //}
+// 🛠 Tạo thư mục nếu chưa có
+var uploadsPath = Path.Combine(builder.Environment.ContentRootPath, "Uploads");
+var pdfPath = Path.Combine(builder.Environment.ContentRootPath, "Pdf");
+
+if (!Directory.Exists(uploadsPath))
+{
+    Directory.CreateDirectory(uploadsPath);
+}
+
+if (!Directory.Exists(pdfPath))
+{
+    Directory.CreateDirectory(pdfPath);
+}
 
 app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseStaticFiles(new StaticFileOptions
 {
-    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Uploads")),
+    FileProvider = new PhysicalFileProvider(uploadsPath),
     RequestPath = "/api/images"
 });
 
 app.UseStaticFiles(new StaticFileOptions
 {
-    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.ContentRootPath, "Pdf")),
+    FileProvider = new PhysicalFileProvider(pdfPath),
     RequestPath = "/api/pdf"
 });
-
 
 app.UseCors("AllowAngularApp");
 
