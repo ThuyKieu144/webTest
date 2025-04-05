@@ -8,17 +8,6 @@ COPY . ./
 
 # Restore dependencies
 RUN dotnet restore "ttxaphuong/ttxaphuong.csproj"
-#
-#
-# ❗ Cài dotnet ef tool
-RUN dotnet tool install --global dotnet-ef
-ENV PATH="$PATH:/root/.dotnet/tools"
-
-# ❗ Chạy database update (migration)
-# ⚠️ Nhớ đảm bảo ConnectionString đúng trong appsettings.json hoặc appsettings.Production.json
-RUN dotnet ef database update --project ttxaphuong/ttxaphuong.csproj
-#
-#
 
 # Build
 RUN dotnet build "ttxaphuong/ttxaphuong.csproj" -c Release -o /app/build
