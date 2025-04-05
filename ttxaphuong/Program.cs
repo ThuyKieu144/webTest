@@ -103,6 +103,11 @@ builder.WebHost.ConfigureKestrel(options =>
 });
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    db.Database.Migrate(); // Tự động chạy migration khi khởi động
+}
 
 // 🛠 Tạo thư mục nếu chưa có
 var uploadsPath = Path.Combine(builder.Environment.ContentRootPath, "Uploads");
