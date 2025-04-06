@@ -34,6 +34,9 @@
     <Folder Include="Uploads\" />
     <Folder Include="Uploads\" />
     <Folder Include="wwwroot\" />
+    <None Update="isrgrootx1.pem">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
