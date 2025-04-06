@@ -102,11 +102,31 @@ builder.WebHost.ConfigureKestrel(options =>
 });
 
 var app = builder.Build();
+
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Database.Migrate(); // Tự động chạy migration khi khởi động
+    
+    // Kiểm tra xem môi trường là development hay production
+    if (app.Environment.IsDevelopment())
+    {
+        try
+        {
+            // Tự động thực hiện migration chỉ trong môi trường phát triển
+            db.Database.Migrate(); // Tự động chạy migration khi ứng dụng khởi động
+        }
+        catch (Exception ex)
+        {
+            // Log lỗi nếu migration gặp vấn đề
+            var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
+            logger.LogError(ex, "An error occurred while migrating the database.");
+            
+            // Có thể thêm logic xử lý hoặc thông báo cho người dùng ở đây
+        }
+    }
 }
+
+
 
 // 🛠 Tạo thư mục nếu chưa có
 var uploadsPath = Path.Combine(builder.Environment.ContentRootPath, "Uploads");
